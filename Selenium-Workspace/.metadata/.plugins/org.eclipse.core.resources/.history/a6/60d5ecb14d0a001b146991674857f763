@@ -1,0 +1,23 @@
+package SharedSteps;
+
+import org.openqa.selenium.*;
+
+public class Login extends Browser
+{
+	// Set Login Credentials
+		String EmailAddress;
+		String Password;
+		
+			public void getLogin()
+			{
+				
+			// Get locations
+			WebElement username = driver.findElement(By.name("email"));
+			WebElement password = driver.findElement(By.name("passwd"));
+			WebElement Login = driver.findElement(By.id("SubmitLogin"));
+
+			// Enter username and password then click Login or Submit Login
+			username.sendKeys(EmailAddress);
+			password.sendKeys(Password);
+			Login.click();
+}

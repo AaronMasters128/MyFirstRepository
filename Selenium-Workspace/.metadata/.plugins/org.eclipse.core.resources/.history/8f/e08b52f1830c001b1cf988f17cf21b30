@@ -1,0 +1,54 @@
+package SharedSteps;
+
+import org.openqa.selenium.*;
+
+public class Login extends Browser
+{
+		
+		
+	// Set Login Credentials
+		public String EmailAddress;
+		public String Password;
+		public String NameOfUser;
+		
+			public static void navigateToSignIn()
+			{
+				// Navigate to the Sign In screen by clicking on the Sign In button
+				WebElement SignInScreen = driver.findElement(By.cssSelector("a.login"));
+				builder.moveToElement(SignInScreen)
+					.click()
+					.build()
+					.perform();				
+			}
+			
+			public static void signOutIfIncorrectUser()
+			{
+				String currentUser = driver.findElement(By.xpath("//*[@class='account']/span")).getText();
+				
+				System.out.println("I am logged in as : "+currentUser); 
+			}
+			
+			public static void signOut()
+			{
+				// Navigate to the Sign In screen by clicking on the Sign In button
+				WebElement SignOutButton = driver.findElement(By.cssSelector("a.logout"));
+				builder.moveToElement(SignOutButton)
+					.click()
+					.build()
+					.perform();		
+			}
+			
+		
+			public void SignIn()
+			{
+				// Get locations of Sign In elements
+				WebElement username = driver.findElement(By.name("email"));
+				WebElement password = driver.findElement(By.name("passwd"));
+				WebElement SignInButton = driver.findElement(By.id("SubmitLogin"));
+
+				// Enter username and password then click Login or Submit Login
+				username.sendKeys(EmailAddress);
+				password.sendKeys(Password);
+				SignInButton.click();
+			}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31306" started-at="2020-10-12T14:27:41 BST" finished-at="2020-10-12T14:28:12 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31306" started-at="2020-10-12T14:27:41 BST" finished-at="2020-10-12T14:28:12 BST">
+      <class name="TestCases.SearchMyStore">
+        <test-method status="PASS" signature="LogIntoMyStore()[pri:0, instance:TestCases.SearchMyStore@47ef968d]" name="LogIntoMyStore" duration-ms="31270" started-at="2020-10-12T14:27:41 BST" finished-at="2020-10-12T14:28:12 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIntoMyStore -->
+        <test-method status="PASS" signature="performASearch()[pri:1, instance:TestCases.SearchMyStore@47ef968d]" name="performASearch" duration-ms="1" started-at="2020-10-12T14:28:12 BST" finished-at="2020-10-12T14:28:12 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performASearch -->
+      </class> <!-- TestCases.SearchMyStore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
