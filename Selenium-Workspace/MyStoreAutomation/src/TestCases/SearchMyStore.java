@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import SharedSteps.Browser;
 import SharedSteps.Login;
+import SharedSteps.SearchItems;
 
 public class SearchMyStore
 {
@@ -31,9 +32,21 @@ public class SearchMyStore
 	}	
 	
 	@Test (priority=1)
+	
+	// I intend to bind this to a csv file containing different items and their expected values.
+	// I will then create a loop to so that it searches for each item in the file.
+	// It will also contain items that do not appear in the search. A field in the file will determine whether it should be found or not.
+	// The test will perform different actions depending on whether the csv file states whether the item should exist.
 	public static void performASearch()
 	{
-		System.out.println("I still need to create this test");
+		
+		SearchItems searchItem = new SearchItems();
+		searchItem.searchItemName="Blouse";
+		searchItem.expectedSearchResultPrice="$27.00";
+		
+		SearchItems.searchForItem();
+		
+		System.out.println("I have now performed a search for one item");
 	}
 
 
