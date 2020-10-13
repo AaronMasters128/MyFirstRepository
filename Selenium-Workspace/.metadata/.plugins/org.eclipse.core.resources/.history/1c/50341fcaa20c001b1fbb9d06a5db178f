@@ -1,0 +1,26 @@
+package SharedSteps;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
+
+public class SearchItems extends Browser
+{
+	
+	public static String searchItemName;
+	
+	public static void searchForItem()
+	{
+	// Get locations of Sign In elements
+	WebElement searchField = driver.findElement(By.name("search_query"));
+	WebElement searchButton = driver.findElement(By.name("submit_search"));
+
+	
+	searchField.sendKeys(searchItemName);
+
+	// Enter username and password then click Login or Submit Login
+	
+	Action SearchForItem = builder.moveToElement(searchButton).click().build();
+	SearchForItem.perform();
+	}
+
+}

@@ -1,0 +1,51 @@
+package TestCases;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import SharedSteps.Browser;
+import SharedSteps.Login;
+import SharedSteps.SearchItems;
+
+public class SearchMyStore
+{
+	@Test (priority=0)
+	public static void LogIntoMyStore() 
+	{
+		// Open Browser to required URL
+		Browser.getBrowserChrome();
+		Browser.openUrl();
+	
+		// Details of Log In User
+		Login myUser = new Login();	
+			myUser.EmailAddress="aaron_masters_128@yahoo.com";
+			myUser.Password="Automation123";
+			myUser.NameOfUser="Aaron Masters";	 
+
+		
+		// Check if no user or incorrect user is logged in.
+		// Log out if incorrect user
+		// Log in as correct user
+		Login.signInAsCorrectUserIfNotAlready(); 
+	
+	}	
+	
+	@Test (priority=1)
+	public static void performASearch()
+	{
+		
+		SearchItems searchItem = new SearchItems();
+		searchItem.searchItemName="Blouse";
+		searchItem.expectedSearchResultPrice="$27.00";
+		
+		SearchItems.searchForItem();
+		
+		
+		System.out.println("I have now performed a search for one item");
+	}
+
+
+	  
+
+}

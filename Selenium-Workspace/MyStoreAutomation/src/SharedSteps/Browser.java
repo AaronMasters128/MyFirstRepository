@@ -37,10 +37,10 @@ public class Browser {
 	public static void openUrl()
 	{
 	// Open Browser and navigate to BaseUrl
-//	String baseUrl = "http://automationpractice.com/";
-	String baseUrl = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
+	String baseUrl = "http://automationpractice.com/";
+//	String baseUrl = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
 	driver.get(baseUrl);
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(20,  TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(5,  TimeUnit.SECONDS);
 	}
 }
