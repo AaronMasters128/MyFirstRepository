@@ -1,3 +1,4 @@
+
 package SharedSteps;
 
 import org.openqa.selenium.WebDriver;
@@ -43,4 +44,3 @@ public class Browser {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(5,  TimeUnit.SECONDS);
 	}
-}
