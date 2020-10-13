@@ -1,3 +1,4 @@
+
 package SharedSteps;
 
 import org.openqa.selenium.*;
@@ -41,3 +42,4 @@ public class SearchItems extends Browser
 	}
 
 }
+
