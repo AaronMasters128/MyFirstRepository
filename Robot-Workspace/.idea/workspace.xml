@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in.">
-      <change afterPath="$PROJECT_DIR$/MyStore/Keywords/General.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/Keywords/Settings.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/Libraries/querycsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/Resources/Resources.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/Resources/db.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/__RunMyStore.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/robot-indices/BuiltIn.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore/robot-indices/Selenium2Library.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/Keywords/General.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Keywords/General.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
     </list>
@@ -105,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602681022739</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in.">
+      <created>1602684736123</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602684736123</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="270" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675800865" />
-    <state x="159" y="87" key="CommitChangelistDialog2" timestamp="1602681294745">
+    <state x="159" y="87" key="CommitChangelistDialog2" timestamp="1602684735039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="159" y="87" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681294745" />
+    <state x="159" y="87" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684735039" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602675782900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,22 +150,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="386" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602680293289" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1602684573876">
+    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1602686062280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
-    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1602684573876">
+    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
+    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1602686062280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
-    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1602684573876">
+    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
+    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1602686062280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
-    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1602684573876">
+    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
+    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1602686062280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
+    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
     <state x="26" y="85" key="MergeDialog" timestamp="1602681215004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675801780" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602681310880">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602684763680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681310880" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684763680" />
     <state x="363" y="431" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1602681218951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
