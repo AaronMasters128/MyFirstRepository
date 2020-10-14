@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in." />
+    <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in.">
+      <change afterPath="$PROJECT_DIR$/MyStore/Keywords/General.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/Keywords/Settings.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/Libraries/querycsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/Resources/Resources.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/Resources/db.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/__RunMyStore.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/robot-indices/BuiltIn.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStore/robot-indices/Selenium2Library.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Robot Test Suite" />
         <option value="Robot Keywords" />
+        <option value="Robot Test Suite" />
       </list>
     </option>
   </component>
@@ -39,17 +51,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyStore/robot-indices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyStore" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\robot-indices" />
-      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore" />
-      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\Keywords" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\Tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore" />
+      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\Libraries" />
+      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\Keywords" />
+      <recent name="C:\Users\aaron.masters\Aarons-Workspaces\Robot-Workspace\MyStore\robot-indices" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675551940" />
-    <state x="683" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602676380451">
+    <state x="683" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602684355472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602676380451" />
+    <state x="683" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684355472" />
     <state x="698" y="270" key="#com.intellij.tools.ToolEditorDialog" timestamp="1602675800865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,22 +149,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="386" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602680293289" />
-    <state width="1897" height="276" key="GridCell.Tab.0.bottom" timestamp="1602681772894">
+    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1602684573876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681772894" />
-    <state width="1897" height="276" key="GridCell.Tab.0.center" timestamp="1602681772894">
+    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
+    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1602684573876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681772894" />
-    <state width="1897" height="276" key="GridCell.Tab.0.left" timestamp="1602681772893">
+    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
+    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1602684573876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681772893" />
-    <state width="1897" height="276" key="GridCell.Tab.0.right" timestamp="1602681772894">
+    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
+    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1602684573876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602681772894" />
+    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684573876" />
     <state x="26" y="85" key="MergeDialog" timestamp="1602681215004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
