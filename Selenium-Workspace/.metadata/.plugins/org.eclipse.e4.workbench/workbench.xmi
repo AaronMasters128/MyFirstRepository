@@ -223,7 +223,7 @@
           <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_qn8F8ApDEeu6TZFmG8O2YQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Browser.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Browser.java&quot; partName=&quot;Browser.java&quot; title=&quot;Browser.java&quot; tooltip=&quot;MyStoreAutomation/src/SharedSteps/Browser.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyStoreAutomation/src/SharedSteps/Browser.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1506&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Browser.java&quot; partName=&quot;Browser.java&quot; title=&quot;Browser.java&quot; tooltip=&quot;MyStoreAutomation/src/SharedSteps/Browser.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyStoreAutomation/src/SharedSteps/Browser.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1538&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -269,7 +269,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_XhFjIAo-Eeu6TZFmG8O2YQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (5 items)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_X_yRUAo-Eeu6TZFmG8O2YQ" elementId="org.eclipse.ui.views.ProblemView">
@@ -393,7 +393,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XWW50go-Eeu6TZFmG8O2YQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ze-KIAyKEeulP5OlSGO9HA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Wy6QuAo-Eeu6TZFmG8O2YQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7vKnwBK2EeuPw_LjiNDSkg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Wy6QuAo-Eeu6TZFmG8O2YQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XWW50wo-Eeu6TZFmG8O2YQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -424,7 +424,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XWW52go-Eeu6TZFmG8O2YQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_zfDCoAyKEeulP5OlSGO9HA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Wy6QLQo-Eeu6TZFmG8O2YQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7vQuYBK2EeuPw_LjiNDSkg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Wy6QLQo-Eeu6TZFmG8O2YQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XWW52wo-Eeu6TZFmG8O2YQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2289,6 +2289,23 @@
   <commands xmi:id="_XPgEGgo-Eeu6TZFmG8O2YQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_Wy6OoQo-Eeu6TZFmG8O2YQ"/>
   <commands xmi:id="_XPgEGwo-Eeu6TZFmG8O2YQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_Wy6OoQo-Eeu6TZFmG8O2YQ"/>
   <commands xmi:id="_XPgEHAo-Eeu6TZFmG8O2YQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_Wy6OoQo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctERHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.hotfixPublish" commandName="Publish Hotfix" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctEhHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.replaceWithDevelop" commandName="Replace with develop branch" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctExHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featurePublish" commandName="Publish Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctFBHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featureCheckout" commandName="Check Out Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctFRHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featureFinish" commandName="Finish Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctFhHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.developCheckout" commandName="Check Out Develop" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctFxHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.hotfixFinish" commandName="Finish Hotfix" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-ctGBHjEeue7sTPLwzUbw" elementId="org.eclipse.mylyn.team.ui.commands.CopyCommitMessage" commandName="Copy Commit Message for Task" description="Copies a commit message for the currently selected task to the clipboard." category="_Wy6Oigo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUIBHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.releasePublish" commandName="Publish Release" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUIRHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.releaseFinish" commandName="Finish Release" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUIhHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.hotfixStart" commandName="Start Hotfix" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUIxHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featureTrack" commandName="Track Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUJBHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.init" commandName="Init Gitflow..." category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUJRHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.releaseStart" commandName="Start Release" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUJhHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.compareWithDevelop" commandName="Compare with develop branch" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUJxHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featureStart" commandName="Start Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
+  <commands xmi:id="_3-dUKBHjEeue7sTPLwzUbw" elementId="org.eclipse.egit.gitflow.ui.command.featureRebase" commandName="Rebase Feature" category="_Wy6Omgo-Eeu6TZFmG8O2YQ"/>
   <addons xmi:id="_WyAPnwo-Eeu6TZFmG8O2YQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_WyAPoAo-Eeu6TZFmG8O2YQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_WyAPoQo-Eeu6TZFmG8O2YQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

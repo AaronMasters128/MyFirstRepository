@@ -9,3 +9,6 @@ C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\We
 C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.pdb
 C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\bin\Debug\WebTest.WebService.Plugin.Runtime.dll
 C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\bin\Debug\MyStore.csv
+C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\bin\Debug\HtmlAgilityPack.dll
+C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\aaron.masters\Aarons-Workspaces\VSWebTest-Workspace\MyStore-WebTests\WebAndLoadTestProject1\bin\Debug\HtmlAgilityPack.xml

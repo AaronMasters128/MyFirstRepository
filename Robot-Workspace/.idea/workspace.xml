@@ -3,10 +3,222 @@
   <component name="ChangeListManager">
     <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/Keywords/General.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Keywords/General.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1/606c14eb850c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/12/000dcc727e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/13/50ad8e564e0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1c/50341fcaa20c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/20/101325b5680c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/25/b005a85d7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/27/e0bc027f8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/28/e0341730a00c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/2c/f012ab5d7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/2e/50a9b848840c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/2f/e01b34d18c0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/3c/a00f86c34b0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/3e/301f94ea8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/45/70d8a5a94d0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/45/b05d13a47d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/46/e0b39c828a0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/4a/a05ed0b14b0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/4f/e009a65d7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/51/b0d195844e0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/54/8052ada94d0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/5c/e04379788c0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/5f/f0dda9399b0c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/61/108427b5680c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/64/90020063890c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/7/e03aab817d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/75/70fbaee79f0c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/78/9074a8178d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/81/805e214c7e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/82/c0876dc37e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/86/e0af254b4e0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8a/20cec654890c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8d/10baa540970c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8e/306118cb7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8f/e08b52f1830c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/92/80a5b96c8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/93/30ec85908d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/9e/d0a164928e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/a6/60d5ecb14d0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/a6/90141f4c7e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/aa/606f617a8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ab/90293a88670c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b2/208791ea8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b3/60b3ea72900c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b4/20f697978e0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/bc/b09589908d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c3/109542268a0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c3/e06905814c0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c6/b06fc6a9850c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c8/e00a3688670c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c8/e09c605a4e0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/cd/606221a74b0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d2/10cba4178d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d8/d09c1430a00c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/da/00abad5d7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/dc/300e320a7d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/dc/a0ddc0064b0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/dd/30d9d55d8d0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e0/30432ab5680c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e2/10b89a828a0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e3/4045aaa94d0a001b146991674857f763" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ec/e0d276788c0c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ed/409c1ccaa20c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/fc/50fdfeb7840c001b1cf988f17cf21b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ff/f0a4b2e79f0c001b1fbb9d06a5db178f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/b1/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/b1/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/junitreports/TEST-TestCases.SearchMyStore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/junitreports/TEST-TestCases.SearchMyStore.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_14_35.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_14_35/In/f9c4edf5-40ea-44a7-8f44-dfe8b1236d9e/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_14_35/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_14_35/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_16_54.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_16_54/In/0670b634-ab28-4901-8599-f4eade2abb5e/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_16_54/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_16_54/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_19_54.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_19_54/In/930193ec-cada-4363-8121-57f321bc7bc3/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_19_54/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_19_54/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_21_15.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_21_15/In/c0a5d33d-50cb-4636-beac-17a896608b2b/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_21_15/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_21_15/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_03.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_03/In/0e8aa8c8-88b7-4082-8239-8bf4d26aec53/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_03/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_03/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_58.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_58/In/669aa34d-4076-4b5d-82a6-83c6cd8cf664/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_58/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_22_58/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_31_16.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_31_16/In/e2fd0bb8-166a-4ac8-a38a-e195bed872c6/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_31_16/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_31_16/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_31_16/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_35_54.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_35_54/In/9e7368b5-483e-4b27-817b-f1aad8034070/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_35_54/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_35_54/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_35_54/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_37_32.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_37_32/In/0aec2f83-44f3-4673-bd00-8caeb705f599/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_37_32/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_37_32/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_37_32/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_39_14.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_39_14/In/14fc7e4f-fe05-4e81-8c49-54f7edfec702/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_39_14/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_39_14/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_39_14/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_42_28.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_42_28/In/5587482d-1bcb-42f8-8a3f-671dcaeef0f1/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_42_28/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_42_28/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_42_28/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_45_33.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_45_33/In/459ebf67-661d-4ac8-9c17-12ecef31c4ac/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_45_33/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_45_33/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_45_33/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_46_53.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_46_53/In/c4fdb443-7a1f-45fc-944e-7abfafa5c9fe/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_46_53/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_46_53/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_46_53/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_47_38.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_47_38/In/dab0b95f-d5bb-48d9-9b09-3daf1211df0e/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_47_38/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_47_38/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_47_38/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_54_51.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_54_51/In/f622d9ca-201c-4599-873b-e7d6f97c9635/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_54_51/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_54_51/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_54_51/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_56_48.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_56_48/In/393419f8-52e1-4992-8bd4-a9e0b8dedc21/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_56_48/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_56_48/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_56_48/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_57_55.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_57_55/In/fd50ec00-4691-4b6f-87c4-503d0484160c/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_57_55/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_57_55/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 11_57_55/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_00_19.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_00_19/In/ec0d9e91-9cac-464a-989d-963a5a055cf7/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_00_19/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_00_19/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_00_19/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_01_32.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_01_32/In/8ceda8cc-d0c6-40b8-94fc-18fe0fd24ec7/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_01_32/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_01_32/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_01_32/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_02_32.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_02_32/In/113b2355-51ff-4eda-9e0a-8930ceec4b88/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_02_32/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_02_32/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_02_32/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_03_47.trx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_03_47/In/68e5aa07-4cdb-43fe-8a01-3865b25ab7f8/MyStore.webtestResult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_03_47/Out/MyStore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_03_47/Out/WebTest.WebService.Plugin.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/TestResults/Aaron.Masters_KEE-L0883 2020-10-13 12_03_47/Out/mystore.webtest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/MyStore.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/MyStore.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/MyStore.webtest" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/MyStore.webtest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/WebAndLoadTestProject1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/WebAndLoadTestProject1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/MyStore.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/MyStore.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/MyStore.webtest" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/MyStore.webtest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/WebAndLoadTestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/WebAndLoadTestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/WebAndLoadTestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/bin/Debug/WebAndLoadTestProject1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/WebAndLoadTestProject1/obj/Debug/WebAndLoadTestProject1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,22 +362,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="386" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602680293289" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1602686062280">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="829" height="276" key="GridCell.Tab.0.bottom" timestamp="1603204472167">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1602686062280">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="829" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603204472167" />
+    <state width="829" height="276" key="GridCell.Tab.0.center" timestamp="1603204472167">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1602686062280">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="829" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603204472167" />
+    <state width="829" height="276" key="GridCell.Tab.0.left" timestamp="1603204472167">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1602686062280">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="829" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603204472167" />
+    <state width="829" height="276" key="GridCell.Tab.0.right" timestamp="1603204472167">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
+    <state width="829" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603204472167" />
     <state x="26" y="85" key="MergeDialog" timestamp="1602681215004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,2 +1,9 @@
-Search Item,No Of Results,Product Description,Price
-Blouse,1,Short sleeved blouse with feminine draped sleeve detail.,\$27.00
+Search,No Of Results,Title,Product Description,Condition,Price,OnSale,SalePrice,Compositions,Styles,Properties,id_Product
+blouse,1,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,1
+dress,7,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,2
+summer,4,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Girly,Colorful Dress,3
+,,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,4
+,,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5
+,,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6
+,,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,,No,,Viscose,Dressy,Short Dress,7
+STOP,,,,,,,,,,,
