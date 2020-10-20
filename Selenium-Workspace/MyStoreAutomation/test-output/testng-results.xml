@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21754" started-at="2020-10-12T16:55:07 BST" finished-at="2020-10-12T16:55:29 BST">
+  <suite name="Default suite" duration-ms="17516" started-at="2020-10-19T10:20:56 BST" finished-at="2020-10-19T10:21:13 BST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21754" started-at="2020-10-12T16:55:07 BST" finished-at="2020-10-12T16:55:29 BST">
+    <test name="Default test" duration-ms="17516" started-at="2020-10-19T10:20:56 BST" finished-at="2020-10-19T10:21:13 BST">
       <class name="TestCases.SearchMyStore">
-        <test-method status="PASS" signature="LogIntoMyStore()[pri:0, instance:TestCases.SearchMyStore@47ef968d]" name="LogIntoMyStore" duration-ms="20236" started-at="2020-10-12T16:55:08 BST" finished-at="2020-10-12T16:55:28 BST">
+        <test-method status="PASS" signature="LogIntoMyStore()[pri:0, instance:TestCases.SearchMyStore@47ef968d]" name="LogIntoMyStore" duration-ms="15280" started-at="2020-10-19T10:20:56 BST" finished-at="2020-10-19T10:21:11 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIntoMyStore -->
-        <test-method status="PASS" signature="performASearch()[pri:1, instance:TestCases.SearchMyStore@47ef968d]" name="performASearch" duration-ms="1477" started-at="2020-10-12T16:55:28 BST" finished-at="2020-10-12T16:55:29 BST">
+        <test-method status="PASS" signature="performASearch()[pri:1, instance:TestCases.SearchMyStore@47ef968d]" name="performASearch" duration-ms="2199" started-at="2020-10-19T10:21:11 BST" finished-at="2020-10-19T10:21:13 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performASearch -->
