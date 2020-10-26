@@ -7,13 +7,13 @@ Resource	../keywords/Settings.robot
 Resource	../keywords/General.robot
 
 
-#Library		../Libraries/querycsv.py
+Library		../Libraries/querycsv.py
 #Library     openpyxl
 #Library     openpyxl.reader.excel
 #Library     ExcelLibrary
 #Library     AngularJS
 #Library     OperatingSystem
-#Library     DatabaseLibrary
+Library     DatabaseLibrary
 #Library     PyPyODBC
 #Library     ExcelRobot
 Library     Selenium2Library
