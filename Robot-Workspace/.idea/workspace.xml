@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="I have created a Robot Framework test that">
-      <change afterPath="$PROJECT_DIR$/MyStore/Tests/000 - Initialise Test Data.robot" afterDir="false" />
+    <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/Keywords/General.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Keywords/General.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/Resources/Resources.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Resources/Resources.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyStore/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyStore/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyStore/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b3/20ca5a5cec11001b16e697ef0878c659" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/TestCases/SearchMyStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/TestCases/SearchMyStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/SearchItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/SearchItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/TestCases/SearchMyStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/testCases/SearchMyStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602684736123</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I have created a Robot Framework test that logs into the MyStore site, then performs a search in 3 ways.&#10;Firstly, it does a simple search, where the search item is defined in the scenario.&#10;Secondly, it performs a thorough search based on data within an Access DB. It acquires 7 search variables, and for each one, confirms whether each of the 7 items within the MyStore site should appear for each search item. This involves loops within loops and if statements to determine whether the item should or should not appear, and whether the item is on sale as it will result in a different xpath statement.&#10;Finally, we have a simple search based on a CSV file. Although I could get it to perform a more thorough check of the site similar to that of the DB search, certain attributes of csv files such as not storing the full cost of each item by removing trailing zeros make it difficult. I have only included it here as an example of how to get data from a csv file.">
+      <created>1603714955505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603714955505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have crated a very basic Robot Framework test that only opens the browser. Am now checking it in so that I can confirm that it is checked in." />
+    <MESSAGE value="I have created a Robot Framework test that logs into the MyStore site, then performs a search in 3 ways.&#10;Firstly, it does a simple search, where the search item is defined in the scenario.&#10;Secondly, it performs a thorough search based on data within an Access DB. It acquires 7 search variables, and for each one, confirms whether each of the 7 items within the MyStore site should appear for each search item. This involves loops within loops and if statements to determine whether the item should or should not appear, and whether the item is on sale as it will result in a different xpath statement.&#10;Finally, we have a simple search based on a CSV file. Although I could get it to perform a more thorough check of the site similar to that of the DB search, certain attributes of csv files such as not storing the full cost of each item by removing trailing zeros make it difficult. I have only included it here as an example of how to get data from a csv file." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have created a Robot Framework test that logs into the MyStore site, then performs a search in 3 ways.&#10;Firstly, it does a simple search, where the search item is defined in the scenario.&#10;Secondly, it performs a thorough search based on data within an Access DB. It acquires 7 search variables, and for each one, confirms whether each of the 7 items within the MyStore site should appear for each search item. This involves loops within loops and if statements to determine whether the item should or should not appear, and whether the item is on sale as it will result in a different xpath statement.&#10;Finally, we have a simple search based on a CSV file. Although I could get it to perform a more thorough check of the site similar to that of the DB search, certain attributes of csv files such as not storing the full cost of each item by removing trailing zeros make it difficult. I have only included it here as an example of how to get data from a csv file." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602675551940">
@@ -144,11 +169,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="270" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675800865" />
-    <state x="1920" y="88" key="CommitChangelistDialog2" timestamp="1603714584424">
+    <state x="1920" y="88" key="CommitChangelistDialog2" timestamp="1603714952957">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="159" y="87" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684735039" />
-    <state x="1920" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714584424" />
+    <state x="1920" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714952957" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602675782900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,26 +182,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="386" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602680293289" />
-    <state width="1232" height="326" key="GridCell.Tab.0.bottom" timestamp="1603714411564">
+    <state width="1231" height="326" key="GridCell.Tab.0.bottom" timestamp="1604340529971">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="1232" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714411564" />
-    <state width="1232" height="326" key="GridCell.Tab.0.center" timestamp="1603714411564">
+    <state width="1231" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1604340529971" />
+    <state width="1231" height="326" key="GridCell.Tab.0.center" timestamp="1604340529971">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="1232" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714411564" />
-    <state width="1232" height="326" key="GridCell.Tab.0.left" timestamp="1603714411564">
+    <state width="1231" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1604340529971" />
+    <state width="1231" height="326" key="GridCell.Tab.0.left" timestamp="1604340529970">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="1232" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714411564" />
-    <state width="1232" height="326" key="GridCell.Tab.0.right" timestamp="1603714411564">
+    <state width="1231" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1604340529970" />
+    <state width="1231" height="326" key="GridCell.Tab.0.right" timestamp="1604340529971">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602686062280" />
-    <state width="1232" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714411564" />
+    <state width="1231" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1604340529971" />
     <state x="26" y="85" key="MergeDialog" timestamp="1602681215004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,10 +214,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675801780" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602684763680">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2403" y="254" key="Vcs.Push.Dialog.v2" timestamp="1603714969168">
+      <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684763680" />
+    <state x="2403" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714969168" />
     <state x="363" y="431" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1602681218951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
