@@ -1,0 +1,51 @@
+Search,AppearInSearch,No Of Results,Title,Product Description,Condition,Price,OnSale,SalePrice,Compositions,Styles,Properties,id_Product,search_summer,search_blouse,search_dress,search_Short Dress,search_Polyester,search_Girly,search_cotton
+blouse,No,1,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+blouse,Yes,1,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+blouse,No,1,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+blouse,No,1,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+blouse,No,1,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+blouse,No,1,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+blouse,No,1,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+dress,Yes,7,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+dress,Yes,7,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+dress,Yes,7,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+dress,Yes,7,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+dress,Yes,7,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+dress,Yes,7,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+dress,Yes,7,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+summer,Yes,4,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+summer,No,4,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+summer,No,4,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+summer,No,4,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+summer,Yes,4,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+summer,Yes,4,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+summer,Yes,4,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+cotton,Yes,3,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+cotton,Yes,3,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+cotton,Yes,3,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+cotton,No,3,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+cotton,No,3,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+cotton,No,3,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+cotton,No,3,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+Polyester,No,2,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+Polyester,No,2,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+Polyester,No,2,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+Polyester,No,2,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+Polyester,No,2,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+Polyester,Yes,2,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+Polyester,Yes,2,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+Girly,No,3,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+Girly,No,3,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+Girly,Yes,3,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+Girly,No,3,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+Girly,No,3,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+Girly,Yes,3,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+Girly,Yes,3,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+Short,Yes,4,Faded Short Sleeve T-shirts,Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!,New,16.51,No,,Cotton,Casual,Colorful Dress,1,No,Yes,Yes,Yes,No,No,Yes
+Short,Yes,4,Blouse,Short sleeved blouse with feminine draped sleeve detail.,New,27,No,,Cotton,Casual,Short Sleeve,2,Yes,Yes,No,Yes,No,No,Yes
+Short,No,4,Printed Dress,100\% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.,New,26,No,,Cotton,Girly,Colorful Dress,3,No,Yes,No,Yes,No,Yes,No
+Short,Yes,4,Printed Dress,Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.,New,50.99,No,,Viscose,Dressy,Short Dress,4,No,Yes,No,No,No,No,Yes
+Short,No,4,Printed Summer Dress,Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.,New,30.51,Yes,28.98,Viscose,Casual,Maxi Dress,5,No,Yes,Yes,No,No,No,No
+Short,Yes,4,Printed Summer Dress,Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.,New,30.5,No,,Polyester,Girly,Short Dress,6,No,Yes,Yes,No,Yes,Yes,Yes
+Short,No,4,Printed Chiffon Dress,Printed chiffon knee length dress with tank straps. Deep v-neckline.,New,20.5,Yes,16.4,Polyester,Girly,Midi Dress,7,No,Yes,Yes,No,Yes,Yes,No
+STOP,,,,,,,,,,,,,,,,,,,

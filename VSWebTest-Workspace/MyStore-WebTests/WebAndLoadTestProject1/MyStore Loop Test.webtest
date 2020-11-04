@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="MyStore Loop Test" Id="957d7c0e-1d08-4f28-abdd-b0de9e602e50" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="MyStore Loop Test.d8097f4a-8f3c-483f-8f0d-66f32213198a.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Comment CommentText="Go to site" />
+    <Request Method="GET" Guid="cc9b0bdf-ae9b-46b3-97c0-bc43af9d1c81" Version="1.1" Url="{{WebServer1}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/index.php" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Comment CommentText="Navigate to Sign In" />
+    <Request Method="GET" Guid="d2e3805b-7aad-4979-ae50-1c63667cc1a0" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/index.php?controller=authentication&amp;back=my-account" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam53.controller" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?controller=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="controller" Value="my-account" RecordedValue="my-account" CorrelationBinding="{{QueryStringParam52.controller}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="Sign In" />
+    <Request Method="POST" Guid="52096aba-45ca-48f6-b958-4a3673d95acf" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer1}}/index.php?controller=my-account" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="controller" Value="authentication" RecordedValue="authentication" CorrelationBinding="{{QueryStringParam53.controller}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="email" Value="aaron_masters_128@yahoo.com" RecordedValue="aaron_masters_128@yahoo.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="passwd" Value="Automation123" RecordedValue="Automation123" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="back" Value="my-account" RecordedValue="my-account" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SubmitLogin" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Comment CommentText="Loop through each item, matching the search results." />
+    <Loop UniqueStringId="951ee329-a5a0-4bb4-9b9a-891cc1d23047">
+      <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter." MaxIterations="-1" AdvanceDataCursors="True">
+        <RuleParameters>
+          <RuleParameter Name="ContextParameterName" Value="DataSource2.MyStoreDetails#csv.Search" />
+          <RuleParameter Name="ComparisonOperator" Value="Not Equals" />
+          <RuleParameter Name="Value" Value="STOP" />
+          <RuleParameter Name="IgnoreCase" Value="True" />
+          <RuleParameter Name="UseRegularExpression" Value="False" />
+        </RuleParameters>
+      </ConditionalRule>
+      <Items>
+        <Comment CommentText="Search for item" />
+        <Request Method="GET" Guid="26059e44-5eb8-4a65-a9f1-4b2b0036ea8d" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <RequestPlugins>
+            <RequestPlugin Classname="Microsoft.VisualStudio.WebTesting.PowerTools.SharePoint.MTSL.General.SPLTPT_MTSL_SetContextParameterValue, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Set Context Parameter Value" Description="Allows you to set a context parameter value for this request.">
+              <RuleParameters>
+                <RuleParameter Name="Enabled" Value="True" />
+                <RuleParameter Name="sContextParameterName" Value="AppearInSearch" />
+                <RuleParameter Name="sContextParameterValue" Value="{{DataSource2.MyStoreDetails#csv.AppearInSearch}}" />
+                <RuleParameter Name="bDoReplace" Value="False" />
+                <RuleParameter Name="sReplaceFindPattern" Value="" />
+                <RuleParameter Name="sReplaceWith" Value="" />
+                <RuleParameter Name="bUseRegEx" Value="False" />
+                <RuleParameter Name="bApplyBeforeRequest" Value="True" />
+                <RuleParameter Name="bHTMLEncode" Value="False" />
+                <RuleParameter Name="bHTMLDecode" Value="False" />
+                <RuleParameter Name="bURLEncode" Value="False" />
+                <RuleParameter Name="bURLDecode" Value="False" />
+                <RuleParameter Name="bBase64Encode" Value="False" />
+                <RuleParameter Name="bBase64Decode" Value="False" />
+                <RuleParameter Name="bRemoveUnicodeEscapeSequences" Value="False" />
+              </RuleParameters>
+            </RequestPlugin>
+            <RequestPlugin Classname="Microsoft.VisualStudio.WebTesting.PowerTools.SharePoint.MTSL.General.SPLTPT_MTSL_SetContextParameterValue, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Set Context Parameter Value" Description="Allows you to set a context parameter value for this request.">
+              <RuleParameters>
+                <RuleParameter Name="Enabled" Value="True" />
+                <RuleParameter Name="sContextParameterName" Value="OnSale" />
+                <RuleParameter Name="sContextParameterValue" Value="{{DataSource2.MyStoreDetails#csv.OnSale}}" />
+                <RuleParameter Name="bDoReplace" Value="False" />
+                <RuleParameter Name="sReplaceFindPattern" Value="" />
+                <RuleParameter Name="sReplaceWith" Value="" />
+                <RuleParameter Name="bUseRegEx" Value="False" />
+                <RuleParameter Name="bApplyBeforeRequest" Value="True" />
+                <RuleParameter Name="bHTMLEncode" Value="False" />
+                <RuleParameter Name="bHTMLDecode" Value="False" />
+                <RuleParameter Name="bURLEncode" Value="False" />
+                <RuleParameter Name="bURLDecode" Value="False" />
+                <RuleParameter Name="bBase64Encode" Value="False" />
+                <RuleParameter Name="bBase64Decode" Value="False" />
+                <RuleParameter Name="bRemoveUnicodeEscapeSequences" Value="False" />
+              </RuleParameters>
+            </RequestPlugin>
+          </RequestPlugins>
+          <QueryStringParameters>
+            <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="q" Value="{{DataSource1.MyStoreSearch#csv.Search}}" RecordedValue="blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="limit" Value="10" RecordedValue="10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="timestamp" Value="1604406240273" RecordedValue="1604406240273" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ajaxSearch" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="id_lang" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Comment CommentText="Run if items SHOULD appear in search" />
+        <Condition UniqueStringId="39b25fc5-a187-4cff-a088-bcf0a8df9208">
+          <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter.">
+            <RuleParameters>
+              <RuleParameter Name="ContextParameterName" Value="AppearInSearch" />
+              <RuleParameter Name="ComparisonOperator" Value="Equals" />
+              <RuleParameter Name="Value" Value="Yes" />
+              <RuleParameter Name="IgnoreCase" Value="True" />
+              <RuleParameter Name="UseRegularExpression" Value="False" />
+            </RuleParameters>
+          </ConditionalRule>
+          <Then>
+            <Items>
+              <Comment CommentText="If not on sale" />
+              <Condition UniqueStringId="078c1c06-d664-4ddd-9a5b-fb3ce4a75889">
+                <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter.">
+                  <RuleParameters>
+                    <RuleParameter Name="ContextParameterName" Value="OnSale" />
+                    <RuleParameter Name="ComparisonOperator" Value="Equals" />
+                    <RuleParameter Name="Value" Value="No" />
+                    <RuleParameter Name="IgnoreCase" Value="True" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                  </RuleParameters>
+                </ConditionalRule>
+                <Then>
+                  <Items>
+                    <Request Method="GET" Guid="d1c1d857-1857-4c4b-9597-c1a050a0c4ff" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+                      <ValidationRules>
+                        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+                          <RuleParameters>
+                            <RuleParameter Name="FindText" Value="search_query={{DataSource2.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource2.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource2.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource2.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.Price}}|{{DataSource2.MyStoreDetails#csv.Price}}0|{{DataSource2.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
+                            <RuleParameter Name="IgnoreCase" Value="False" />
+                            <RuleParameter Name="UseRegularExpression" Value="True" />
+                            <RuleParameter Name="PassIfTextFound" Value="True" />
+                          </RuleParameters>
+                        </ValidationRule>
+                        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+                          <RuleParameters>
+                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                            <RuleParameter Name="IgnoreCase" Value="False" />
+                            <RuleParameter Name="UseRegularExpression" Value="True" />
+                            <RuleParameter Name="PassIfTextFound" Value="True" />
+                          </RuleParameters>
+                        </ValidationRule>
+                      </ValidationRules>
+                      <QueryStringParameters>
+                        <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                      </QueryStringParameters>
+                    </Request>
+                  </Items>
+                </Then>
+                <Else />
+              </Condition>
+              <Comment CommentText="If on sale" />
+              <Condition UniqueStringId="7c436354-a1a4-4ee8-b886-e2f237687573">
+                <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter.">
+                  <RuleParameters>
+                    <RuleParameter Name="ContextParameterName" Value="OnSale" />
+                    <RuleParameter Name="ComparisonOperator" Value="Equals" />
+                    <RuleParameter Name="Value" Value="Yes" />
+                    <RuleParameter Name="IgnoreCase" Value="True" />
+                    <RuleParameter Name="UseRegularExpression" Value="False" />
+                  </RuleParameters>
+                </ConditionalRule>
+                <Then>
+                  <Items>
+                    <Comment CommentText="Check Sale Price" />
+                    <Request Method="GET" Guid="d1c1d857-1857-4c4b-9597-c1a050a0c4ff" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+                      <ValidationRules>
+                        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+                          <RuleParameters>
+                            <RuleParameter Name="FindText" Value="&lt;a class=&quot;product-name&quot; href=&quot;http:\/\/automationpractice.com\/index.php\?id_product={{DataSource2.MyStoreDetails#csv.id_Product}}&amp;amp;controller=product&amp;amp;search_query={{DataSource2.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource2.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource2.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource2.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.SalePrice}}|{{DataSource2.MyStoreDetails#csv.SalePrice}}0|{{DataSource2.MyStoreDetails#csv.SalePrice}}.00)\s+&lt;/span&gt;\s+&lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot; /&gt;\s+&lt;span class=&quot;old-price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.Price}}|{{DataSource2.MyStoreDetails#csv.Price}}0|{{DataSource2.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
+                            <RuleParameter Name="IgnoreCase" Value="False" />
+                            <RuleParameter Name="UseRegularExpression" Value="True" />
+                            <RuleParameter Name="PassIfTextFound" Value="True" />
+                          </RuleParameters>
+                        </ValidationRule>
+                        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+                          <RuleParameters>
+                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                            <RuleParameter Name="IgnoreCase" Value="False" />
+                            <RuleParameter Name="UseRegularExpression" Value="True" />
+                            <RuleParameter Name="PassIfTextFound" Value="True" />
+                          </RuleParameters>
+                        </ValidationRule>
+                      </ValidationRules>
+                      <QueryStringParameters>
+                        <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                      </QueryStringParameters>
+                    </Request>
+                  </Items>
+                </Then>
+                <Else />
+              </Condition>
+            </Items>
+          </Then>
+          <Else />
+        </Condition>
+        <Comment CommentText="Run if items SHOULD NOT appear in search" />
+        <Condition UniqueStringId="f527f80e-b4d6-4a10-a553-62e33317c3a7">
+          <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter.">
+            <RuleParameters>
+              <RuleParameter Name="ContextParameterName" Value="AppearInSearch" />
+              <RuleParameter Name="ComparisonOperator" Value="Equals" />
+              <RuleParameter Name="Value" Value="No" />
+              <RuleParameter Name="IgnoreCase" Value="True" />
+              <RuleParameter Name="UseRegularExpression" Value="False" />
+            </RuleParameters>
+          </ConditionalRule>
+          <Then>
+            <Items>
+              <Request Method="GET" Guid="d1c1d857-1857-4c4b-9597-c1a050a0c4ff" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+                <ValidationRules>
+                  <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+                    <RuleParameters>
+                      <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                      <RuleParameter Name="IgnoreCase" Value="False" />
+                      <RuleParameter Name="UseRegularExpression" Value="True" />
+                      <RuleParameter Name="PassIfTextFound" Value="False" />
+                    </RuleParameters>
+                  </ValidationRule>
+                </ValidationRules>
+                <QueryStringParameters>
+                  <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                </QueryStringParameters>
+              </Request>
+            </Items>
+          </Then>
+          <Else />
+        </Condition>
+        <Request Method="GET" Guid="619240b6-e90c-43af-8ab2-4721f32d1ac7" Version="1.1" Url="{{WebServer1}}/index.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="id_product" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam100.id_product}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="controller" Value="product" RecordedValue="product" CorrelationBinding="{{QueryStringParam101.controller}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="search_query" Value="blouse" RecordedValue="blouse" CorrelationBinding="{{QueryStringParam102.search_query}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="results" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam103.results}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </Loop>
+  </Items>
+  <DataSources>
+    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\MyStoreSearch.csv">
+      <Tables>
+        <DataSourceTable Name="MyStoreSearch#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+    <DataSource Name="DataSource2" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\MyStoreDetails.csv">
+      <Tables>
+        <DataSourceTable Name="MyStoreDetails#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://automationpractice.com" />
+    <ContextParameter Name="SearchContext" Value="{{DataSource1.MyStoreSearch#csv.Search}}" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="WebTest.WebService.Plugin.Runtime.WebServicePlugin, WebTest.WebService.Plugin.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7df62e912b712c48" DisplayName="" Description="" />
+  </WebTestPlugins>
+</WebTest>
