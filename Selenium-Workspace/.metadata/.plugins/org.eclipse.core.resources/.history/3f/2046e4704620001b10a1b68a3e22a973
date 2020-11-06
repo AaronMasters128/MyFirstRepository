@@ -11,14 +11,14 @@ import sharedSteps.DatabaseCommands;
 import sharedSteps.Login;
 import sharedSteps.SearchItems;
 
-import java.util.List;
-import org.testng.Assert;
-
+import java.sql.Clob;
 import java.sql.Connection;
 import java.sql.Statement;
+import java.util.List;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.DriverManager;
+import java.sql.NClob;
 import java.sql.SQLException;
 
 public class SearchMyStore
@@ -137,7 +137,7 @@ public class SearchMyStore
 				// While Loop to iterate through all data and print results
 				while (rs2.next())
 				{
-					System.out.println("Next Item ------------------------------------------------------");
+					System.out.println("I will now check whether each item appears in the search results");
 					
 					String foundInSearch = rs2.getString(foundInSearchColumn);
 					String TitleField = rs2.getNString("Title");
@@ -154,84 +154,39 @@ public class SearchMyStore
 					{
 						if(OnSaleField.equals("Yes"))
 						{
-							// Item should be found in the search results
-							// Item is on sale
-							// Creates a list of all items that matches the xpath criteria and confirms there is 1 item in the list.
-							// It does this because the test stops if it fails to match the xpath.
-							// There will be a better way to do this, but I will try this method first.
-
-							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
-							int elementExists = results.size();
-							if(elementExists==1)
-							{
-//								WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
-//								String FoundSearchItem = results.getText();
-//								System.out.println("Result : "+FoundSearchItem);
-								System.out.println("originally costing : "+PriceField);
-								System.out.println("but is on sale at : "+SalePriceField);
-								System.out.println("WAS found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
-							}
-							else
-							{
-								System.out.println("costing : "+PriceField);
-								System.out.println("and is on sale");
-								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");	
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
-							}
-							
-
+							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
+							String FoundSearchItem = results.getText();
+							System.out.println("Result : "+FoundSearchItem);
+							System.out.println("originally costing : "+PriceField);
+							System.out.println("but is on sale at : "+SalePriceField);
+							System.out.println("WAS found in the search results");
 						}
 						else
 						{
-							// Item should be found in the search results
-							// Item is not on sale
-							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
-							int elementExists = results.size();
-							if(elementExists==1)
-							{
-	//							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
-	//							String FoundSearchItem = results.getText();
-	//							System.out.println("Result : "+FoundSearchItem);
-								System.out.println("costing : "+PriceField);
-								System.out.println("and is not on sale");
-								System.out.println("WAS correctly found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
-							}
-							else
-							{
-								System.out.println("costing : "+PriceField);
-								System.out.println("and is not on sale");
-								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
-							}
-							
-
+							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
+							String FoundSearchItem = results.getText();
+							System.out.println("Result : "+FoundSearchItem);
+							System.out.println("costing : "+PriceField);
+							System.out.println("and is not on sale");
+							System.out.println("WAS found in the search results");
 						}						
 					}
 					else
 					{
-						// Item should not be found in the search results
+						System.out.println("Item should not be found");
+
+
 						System.out.println("Should not be found in the search results");
 						
-						// Create a list of all items that matches the xpath criteria and confirms that the list is empty
 						List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]"));	
 						int elementExists = results.size();
-						if(elementExists==0)
+						if(elementExists!=0)
 						{
 							System.out.println("This item was correctly not found");
-//							String wasItemFound = "No";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
 						}
 						else
 						{
-							System.out.println("This item was incorrectly found - XXXXX ERROR XXXXX");
-//							String wasItemFound = "Yes";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
+							System.out.println("This item was incorrectly found");
 						}
 							
 							
