@@ -1,12 +1,18 @@
-package TestCases;
+package testCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import SharedSteps.Browser;
-import SharedSteps.Login;
-import SharedSteps.SearchItems;
+import sharedSteps.Browser;
+import sharedSteps.Login;
+import sharedSteps.SearchItems;
+
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class SearchMyStore
 {
@@ -52,6 +58,29 @@ public class SearchMyStore
 	}
 
 	// Perform a search based on data in an MS-Access DB file.
-	  
-
+	@Test (priority=2)
+	public static void performASearchUsingTheDB() throws SQLException
+	{
+		// Specify location of MS Access file as variable dbFile
+		String dbFile = "//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/MyStoreRobot.accdb";
+		
+		// Query to execute
+		String query = "select * from MyStoreSearch;";
+				
+		// Create connection to the DB
+		Connection con = DriverManager.getConnection("jdbc:ucanaccess:"+dbFile+";memory=false");
+		
+		// Create statement Object
+		Statement stmt = con.createStatement();
+		
+		// Execute the SQL query. Store results in ResultSet
+		ResultSet rs = stmt.executeQuery(query);
+		
+		// While Loop to iterate through all data and print results
+		while (rs.next())
+		{
+			String SearchField = rs.getNString("Search");
+			System.out.println(SearchField);
+		}
+	}
 }
