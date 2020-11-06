@@ -38,7 +38,7 @@
     <Loop UniqueStringId="951ee329-a5a0-4bb4-9b9a-891cc1d23047">
       <ConditionalRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.StringComparisonRule, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="String Comparison" Description="The condition is met when the provided string matches the content of the provided context parameter." MaxIterations="-1" AdvanceDataCursors="True">
         <RuleParameters>
-          <RuleParameter Name="ContextParameterName" Value="DataSource2.MyStoreDetails#csv.Search" />
+          <RuleParameter Name="ContextParameterName" Value="DataSource1.MyStoreDetails#csv.Search" />
           <RuleParameter Name="ComparisonOperator" Value="Not Equals" />
           <RuleParameter Name="Value" Value="STOP" />
           <RuleParameter Name="IgnoreCase" Value="True" />
@@ -53,7 +53,7 @@
               <RuleParameters>
                 <RuleParameter Name="Enabled" Value="True" />
                 <RuleParameter Name="sContextParameterName" Value="AppearInSearch" />
-                <RuleParameter Name="sContextParameterValue" Value="{{DataSource2.MyStoreDetails#csv.AppearInSearch}}" />
+                <RuleParameter Name="sContextParameterValue" Value="{{DataSource1.MyStoreDetails#csv.AppearInSearch}}" />
                 <RuleParameter Name="bDoReplace" Value="False" />
                 <RuleParameter Name="sReplaceFindPattern" Value="" />
                 <RuleParameter Name="sReplaceWith" Value="" />
@@ -72,7 +72,7 @@
               <RuleParameters>
                 <RuleParameter Name="Enabled" Value="True" />
                 <RuleParameter Name="sContextParameterName" Value="OnSale" />
-                <RuleParameter Name="sContextParameterValue" Value="{{DataSource2.MyStoreDetails#csv.OnSale}}" />
+                <RuleParameter Name="sContextParameterValue" Value="{{DataSource1.MyStoreDetails#csv.OnSale}}" />
                 <RuleParameter Name="bDoReplace" Value="False" />
                 <RuleParameter Name="sReplaceFindPattern" Value="" />
                 <RuleParameter Name="sReplaceWith" Value="" />
@@ -127,7 +127,7 @@
                       <ValidationRules>
                         <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
                           <RuleParameters>
-                            <RuleParameter Name="FindText" Value="search_query={{DataSource2.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource2.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource2.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource2.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.Price}}|{{DataSource2.MyStoreDetails#csv.Price}}0|{{DataSource2.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
+                            <RuleParameter Name="FindText" Value="search_query={{DataSource1.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource1.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource1.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource1.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource1.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource1.MyStoreDetails#csv.Price}}|{{DataSource1.MyStoreDetails#csv.Price}}0|{{DataSource1.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
                             <RuleParameter Name="IgnoreCase" Value="False" />
                             <RuleParameter Name="UseRegularExpression" Value="True" />
                             <RuleParameter Name="PassIfTextFound" Value="True" />
@@ -135,7 +135,7 @@
                         </ValidationRule>
                         <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
                           <RuleParameters>
-                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource1.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
                             <RuleParameter Name="IgnoreCase" Value="False" />
                             <RuleParameter Name="UseRegularExpression" Value="True" />
                             <RuleParameter Name="PassIfTextFound" Value="True" />
@@ -146,7 +146,7 @@
                         <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                        <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="search_query" Value="{{DataSource1.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                       </QueryStringParameters>
                     </Request>
@@ -172,7 +172,7 @@
                       <ValidationRules>
                         <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
                           <RuleParameters>
-                            <RuleParameter Name="FindText" Value="&lt;a class=&quot;product-name&quot; href=&quot;http:\/\/automationpractice.com\/index.php\?id_product={{DataSource2.MyStoreDetails#csv.id_Product}}&amp;amp;controller=product&amp;amp;search_query={{DataSource2.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource2.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource2.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource2.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.SalePrice}}|{{DataSource2.MyStoreDetails#csv.SalePrice}}0|{{DataSource2.MyStoreDetails#csv.SalePrice}}.00)\s+&lt;/span&gt;\s+&lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot; /&gt;\s+&lt;span class=&quot;old-price product-price&quot;&gt;\s+\$({{DataSource2.MyStoreDetails#csv.Price}}|{{DataSource2.MyStoreDetails#csv.Price}}0|{{DataSource2.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
+                            <RuleParameter Name="FindText" Value="&lt;a class=&quot;product-name&quot; href=&quot;http:\/\/automationpractice.com\/index.php\?id_product={{DataSource1.MyStoreDetails#csv.id_Product}}&amp;amp;controller=product&amp;amp;search_query={{DataSource1.MyStoreDetails#csv.Search}}&amp;amp;results={{DataSource1.MyStoreDetails#csv.No Of Results}}&quot; title=&quot;{{DataSource1.MyStoreDetails#csv.Title}}&quot; itemprop=&quot;url&quot; &gt;\s+{{DataSource1.MyStoreDetails#csv.Title}}\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource1.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;\s+&lt;div itemprop=&quot;offers&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot; class=&quot;content_price&quot;&gt;\s+&lt;span itemprop=&quot;price&quot; class=&quot;price product-price&quot;&gt;\s+\$({{DataSource1.MyStoreDetails#csv.SalePrice}}|{{DataSource1.MyStoreDetails#csv.SalePrice}}0|{{DataSource1.MyStoreDetails#csv.SalePrice}}.00)\s+&lt;/span&gt;\s+&lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot; /&gt;\s+&lt;span class=&quot;old-price product-price&quot;&gt;\s+\$({{DataSource1.MyStoreDetails#csv.Price}}|{{DataSource1.MyStoreDetails#csv.Price}}0|{{DataSource1.MyStoreDetails#csv.Price}}.00)\s+&lt;/span&gt;" />
                             <RuleParameter Name="IgnoreCase" Value="False" />
                             <RuleParameter Name="UseRegularExpression" Value="True" />
                             <RuleParameter Name="PassIfTextFound" Value="True" />
@@ -180,7 +180,7 @@
                         </ValidationRule>
                         <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
                           <RuleParameters>
-                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                            <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource1.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
                             <RuleParameter Name="IgnoreCase" Value="False" />
                             <RuleParameter Name="UseRegularExpression" Value="True" />
                             <RuleParameter Name="PassIfTextFound" Value="True" />
@@ -191,7 +191,7 @@
                         <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                        <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                        <QueryStringParameter Name="search_query" Value="{{DataSource1.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                         <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                       </QueryStringParameters>
                     </Request>
@@ -220,7 +220,7 @@
                 <ValidationRules>
                   <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
                     <RuleParameters>
-                      <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource2.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
+                      <RuleParameter Name="FindText" Value="&lt;div class=&quot;right-block&quot;&gt;\s+&lt;h5 itemprop=&quot;name&quot;&gt;\s+&lt;a class=&quot;product-name&quot; href=&quot;http://automationpractice.com/index.php\?id_product=[^&gt;]*&amp;amp;controller=product&amp;amp;search_query=[^&gt;]*&amp;amp;results=[^&gt;]*&quot; title=&quot;[^&gt;]*&quot; itemprop=&quot;url&quot; &gt;\s+[^&gt;]*\s+&lt;/a&gt;\s+&lt;/h5&gt;\s+&lt;p class=&quot;product-desc&quot; itemprop=&quot;description&quot;&gt;\s+{{DataSource1.MyStoreDetails#csv.Product Description}}\s+&lt;/p&gt;" />
                       <RuleParameter Name="IgnoreCase" Value="False" />
                       <RuleParameter Name="UseRegularExpression" Value="True" />
                       <RuleParameter Name="PassIfTextFound" Value="False" />
@@ -231,7 +231,7 @@
                   <QueryStringParameter Name="controller" Value="search" RecordedValue="search" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                   <QueryStringParameter Name="orderby" Value="position" RecordedValue="position" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                   <QueryStringParameter Name="orderway" Value="desc" RecordedValue="desc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                  <QueryStringParameter Name="search_query" Value="{{DataSource2.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                  <QueryStringParameter Name="search_query" Value="{{DataSource1.MyStoreDetails#csv.Search}}" RecordedValue="Blouse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                   <QueryStringParameter Name="submit_search" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
                 </QueryStringParameters>
               </Request>
@@ -251,12 +251,7 @@
     </Loop>
   </Items>
   <DataSources>
-    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\MyStoreSearch.csv">
-      <Tables>
-        <DataSourceTable Name="MyStoreSearch#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
-      </Tables>
-    </DataSource>
-    <DataSource Name="DataSource2" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\MyStoreDetails.csv">
+    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\MyStoreDetails.csv">
       <Tables>
         <DataSourceTable Name="MyStoreDetails#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
       </Tables>

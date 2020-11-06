@@ -3,31 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="733573f3-a6f8-47c2-9b20-7b8704fd6455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStore/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" beforeDir="false" afterPath="$PROJECT_DIR$/MyStore/Tests/MyStore.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b3/20ca5a5cec11001b16e697ef0878c659" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8f/50365e104218001b1629a2ca790b38e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/91/60d9251d4218001b1629a2ca790b38e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/eb/00e1a3244218001b1629a2ca790b38e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ec/302c791e7518001b1629a2ca790b38e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f8/d062131d4218001b1629a2ca790b38e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/2f/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/2f/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/5e/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/b1/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/c2/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyStoreAutomation/.indexes/e4/c2/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.root/7.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/1809550905.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/SharedSteps/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/TestCases/SearchMyStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/bin/TestCases/SearchMyStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/SharedSteps/SearchItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/sharedSteps/SearchItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/TestCases/SearchMyStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium-Workspace/MyStoreAutomation/src/testCases/SearchMyStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VSWebTest-Workspace/MyStore-WebTests/.vs/MyStore-WebTests/v15/.suo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyStore/Tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Automation Tests Repository/HealthMedics/eJobPlan/Robot Framework" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
@@ -174,10 +171,10 @@
     </state>
     <state x="159" y="87" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602684735039" />
     <state x="1920" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1050@1920.0.1680.1050" timestamp="1603714952957" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602675782900">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604589667388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1602675782900" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1604589667388" />
     <state x="707" y="386" key="Github.CreatePullRequestDialog" timestamp="1602680293289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
