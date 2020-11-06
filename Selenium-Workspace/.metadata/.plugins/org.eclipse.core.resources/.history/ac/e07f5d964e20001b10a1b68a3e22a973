@@ -170,16 +170,16 @@ public class SearchMyStore
 								System.out.println("originally costing : "+PriceField);
 								System.out.println("but is on sale at : "+SalePriceField);
 								System.out.println("WAS found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "Yes";
+								Assert.assertEquals(wasItemFound,foundInSearch);
 							}
 							else
 							{
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is on sale");
 								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");	
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "No";
+								Assert.assertEquals(wasItemFound,foundInSearch);
 							}
 							
 
@@ -198,16 +198,16 @@ public class SearchMyStore
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is not on sale");
 								System.out.println("WAS correctly found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "Yes";
+								Assert.assertEquals(wasItemFound,foundInSearch);
 							}
 							else
 							{
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is not on sale");
 								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "No";
+								Assert.assertEquals(wasItemFound,foundInSearch);
 							}
 							
 
@@ -224,14 +224,14 @@ public class SearchMyStore
 						if(elementExists==0)
 						{
 							System.out.println("This item was correctly not found");
-//							String wasItemFound = "No";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
+							String wasItemFound = "No";
+							Assert.assertEquals(wasItemFound,foundInSearch);
 						}
 						else
 						{
 							System.out.println("This item was incorrectly found - XXXXX ERROR XXXXX");
-//							String wasItemFound = "Yes";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
+							String wasItemFound = "Yes";
+							Assert.assertEquals(wasItemFound,foundInSearch);
 						}
 							
 							

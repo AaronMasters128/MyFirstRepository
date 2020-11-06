@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-06T15:23:57 GMT" name="Default suite" finished-at="2020-11-06T15:26:39 GMT" duration-ms="161928">
+  <suite started-at="2020-11-06T16:46:59 GMT" name="Default suite" finished-at="2020-11-06T16:49:59 GMT" duration-ms="179415">
     <groups>
     </groups>
-    <test started-at="2020-11-06T15:23:57 GMT" name="Default test" finished-at="2020-11-06T15:26:39 GMT" duration-ms="161928">
+    <test started-at="2020-11-06T16:46:59 GMT" name="Default test" finished-at="2020-11-06T16:49:59 GMT" duration-ms="179415">
       <class name="testCases.SearchMyStore">
-        <test-method signature="LogIntoMyStore()[pri:0, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T15:23:57 GMT" name="LogIntoMyStore" finished-at="2020-11-06T15:24:16 GMT" duration-ms="19365" status="PASS">
+        <test-method signature="LogIntoMyStore()[pri:0, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T16:47:00 GMT" name="LogIntoMyStore" finished-at="2020-11-06T16:47:15 GMT" duration-ms="15963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIntoMyStore -->
-        <test-method signature="performASearch()[pri:1, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T15:24:16 GMT" name="performASearch" finished-at="2020-11-06T15:24:18 GMT" duration-ms="1776" status="PASS">
+        <test-method signature="performASearch()[pri:1, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T16:47:15 GMT" name="performASearch" finished-at="2020-11-06T16:47:17 GMT" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performASearch -->
-        <test-method signature="performASearchUsingTheDB()[pri:2, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T15:24:18 GMT" name="performASearchUsingTheDB" finished-at="2020-11-06T15:26:39 GMT" duration-ms="140750" status="PASS">
+        <test-method signature="performASearchUsingTheDB()[pri:2, instance:testCases.SearchMyStore@1d082e88]" started-at="2020-11-06T16:47:17 GMT" name="performASearchUsingTheDB" finished-at="2020-11-06T16:49:59 GMT" duration-ms="162166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performASearchUsingTheDB -->
