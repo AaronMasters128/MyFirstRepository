@@ -1,0 +1,280 @@
+package testCases;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import sharedSteps.Browser;
+import sharedSteps.DatabaseCommands;
+import sharedSteps.Login;
+import sharedSteps.SearchItems;
+import sharedSteps.ListenerClassFile;
+
+import java.util.List;
+//import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
+
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+@Listeners(ListenerClassFile.class)
+public class SearchMyStore
+{
+	// Open Browser and log into site.
+	@Test (priority=0) 
+	public static void LogIntoMyStore() 
+	{
+		// Open Browser to required URL
+		Browser.getBrowserChrome();
+		Browser.openUrl();
+	
+		// Details of Log In User
+		Login myUser = new Login();	
+			myUser.EmailAddress="aaron_masters_128@yahoo.com";
+			myUser.Password="Automation123";
+			myUser.NameOfUser="Aaron Masters";	 
+
+		
+		// Check if no user or incorrect user is logged in.
+		// Log out if incorrect user
+		// Log in as correct user
+		Login.signInAsCorrectUserIfNotAlready(); 
+	
+	}	
+	
+	// Perform a simple search based on criteria within hard-coded within the test itself.
+	@Test (priority=1)
+	
+	// I intend to bind this to a csv file containing different items and their expected values.
+	// I will then create a loop to so that it searches for each item in the file.
+	// It will also contain items that do not appear in the search. A field in the file will determine whether it should be found or not.
+	// The test will perform different actions depending on whether the csv file states whether the item should exist.
+	public static void performASearch()
+	{
+		
+		SearchItems searchItem = new SearchItems();
+		searchItem.searchItemName="Blouse";
+		searchItem.expectedSearchResultPrice="$27.00";
+		
+		SearchItems.searchForItem();
+		SearchItems.simpleCheckSearchResults();
+		
+		System.out.println("I have now performed a search for one item");
+	}
+
+	// Perform a search based on data in an MS-Access DB file.
+	@Test (priority=2)
+	public static void performASearchUsingTheDB() throws SQLException
+	{
+		
+		System.out.println("I will now start testing against the Access DB");
+		/**
+		DatabaseCommands myStoreDB = new DatabaseCommands();
+		myStoreDB.DBFileDir="//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/";
+		myStoreDB.DBFileName="MyStoreSelenium.accdb";
+		myStoreDB.DBTableName="MyStoreSearch";
+		
+		DatabaseCommands.SelectAllFromTheRequiredDB();
+		*/
+	
+		SoftAssert sa= new SoftAssert();
+		
+		// Specify location of MS Access file as variable dbFile
+		String dbFile = "//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/MyStoreSelenium.accdb";
+		
+		// Query to execute
+		String query = "select * from MyStoreSearch;";
+				
+		// Create connection to the DB
+		Connection con = DriverManager.getConnection("jdbc:ucanaccess:"+dbFile+";memory=false");
+		
+		// Create statement Object
+		Statement stmt = con.createStatement();
+		
+		// Execute the SQL query. Store results in ResultSet
+		ResultSet rs = stmt.executeQuery(query);
+
+		// While Loop to iterate through all data and print results
+		
+		int foundInSearchColumn = 13;
+		
+		while (rs.next())
+		{
+//-----------------------------
+			// Confirm and display the name of the search string
+			String SearchField = rs.getNString("Search");
+			System.out.println("");
+			System.out.println("I will search for "+SearchField);
+			System.out.println("");
+
+			// Confirm and display the column name determining whether the item should appear in the search
+			ResultSetMetaData rsmd = rs.getMetaData();
+			String columnName = rsmd.getColumnName(foundInSearchColumn);
+			System.out.println("--------------");
+			System.out.println("Checking against Column name = "+columnName);
+			System.out.println("--------------");	
+//--------------------------------
+			
+			// Perform a search for the item in the Search field
+			SearchItems searchItem = new SearchItems();
+			searchItem.searchItemName=SearchField;
+			SearchItems.searchForItem();
+//--------------------------------
+
+			// For each search, loop through the 7 items in the DB, and confirm whether or not they appear in the results.
+			
+				// Query to execute
+				String query2 = "select * from MyStoreSearch;";
+			
+				// Create statement Object
+				Statement stmt2 = con.createStatement();
+				
+				// Execute the SQL query. Store results in ResultSet
+				ResultSet rs2 = stmt2.executeQuery(query2);
+				
+				// While Loop to iterate through all data and print results
+				while (rs2.next())
+				{
+					System.out.println("Next Item ------------------------------------------------------");
+					
+					String foundInSearch = rs2.getString(foundInSearchColumn);
+					String TitleField = rs2.getNString("Title");
+					String OnSaleField = rs2.getNString("OnSale");
+					String DescriptionField = rs2.getNString("Product Description");
+					String PriceField = rs2.getNString("Price");
+					String SalePriceField = rs2.getNString("SalePrice");					
+
+					System.out.println("Should item be found in search : "+foundInSearch);
+					System.out.println("The item titled : "+TitleField);
+					System.out.println("with the description : "+DescriptionField);
+					
+					if(foundInSearch.equals("Yes"))
+					{
+								String SearchDetailsfoundInSearch = "Search field = "+SearchField+" Search Item = "+searchItem+" Found in search = "+foundInSearch;	
+								System.out.println("SearchDetailsfoundInSearch = "+SearchDetailsfoundInSearch);
+						if(OnSaleField.equals("Yes"))
+						{
+							// Item should be found in the search results
+							// Item is on sale
+							// Creates a list of all items that matches the xpath criteria and confirms there is 1 item in the list.
+							// It does this because the test stops if it fails to match the xpath.
+							// It then performs a SoftAssert to confirm that the results match the expected results.
+
+							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
+							int elementExists = results.size();
+							if(elementExists==1)
+							{
+
+								System.out.println("originally costing : "+PriceField);
+								System.out.println("but is on sale at : "+SalePriceField);
+								System.out.println("WAS found in the search results");
+								String wasItemFound = "Yes";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								String SearchDetailswasItemFound = "";
+
+							}
+							else
+							{
+								System.out.println("costing : "+PriceField);
+								System.out.println("and is on sale");
+								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");	
+								String wasItemFound = "No";
+								sa.assertEquals(wasItemFound,foundInSearch);
+							}
+							
+
+						}
+						else
+						{
+/**							
+ * The below checks whether the variables exists in the xpath, and causes the test to fail if it is not found. However, the test then stops and fails to test the remaining criteria. 
+ * I am keeping this code for reference.							
+ *
+							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
+							String FoundSearchItem = results.getText();
+							System.out.println("Result : "+FoundSearchItem);
+							System.out.println("costing : "+PriceField);
+							System.out.println("and is not on sale");
+							System.out.println("WAS correctly found in the search results");
+							String wasItemFound = "Yes";
+							Assert.assertEquals(wasItemFound,foundInSearch);
+*/							
+
+							// Item should be found in the search results
+							// Item is not on sale
+							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
+							int elementExists = results.size();
+							if(elementExists==1)
+							{
+								System.out.println("costing : "+PriceField);
+								System.out.println("and is not on sale");
+								System.out.println("WAS correctly found in the search results");
+								String wasItemFound = "Yes";
+								sa.assertEquals(wasItemFound,foundInSearch);
+
+							}
+							else
+							{
+								System.out.println("costing : "+PriceField);
+								System.out.println("and is not on sale");
+								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");
+								String wasItemFound = "No";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								
+
+							}
+// */
+							
+
+						}						
+					}
+					else
+					{
+						// Item should not be found in the search results
+						System.out.println("Should not be found in the search results");
+						
+						// Create a list of all items that matches the xpath criteria and confirms that the list is empty
+						List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]"));	
+						int elementExists = results.size();
+						if(elementExists==0)
+						{
+							System.out.println("This item was correctly not found");
+							String wasItemFound = "No";
+							sa.assertEquals(wasItemFound,foundInSearch);
+						}
+						else
+						{
+							System.out.println("This item was incorrectly found - XXXXX ERROR XXXXX");
+							String wasItemFound = "Yes";
+							sa.assertEquals(wasItemFound,foundInSearch);
+						}
+							
+					}
+					
+
+					
+
+					
+					//searchItem.expectedSearchResultPrice=PriceField;
+				}
+			foundInSearchColumn = foundInSearchColumn + 1;
+			System.out.println("Found In Search now equals " +foundInSearchColumn);				
+			
+//			SearchItems.advancedCheckSearchResults();
+
+			System.out.println("I have now performed a search for " +SearchField );
+			
+		}
+		
+		// Checks whether any of the Soft Asserts have failed and fails the test if so.
+		sa.assertAll();
+		
+	}
+}

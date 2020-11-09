@@ -2,6 +2,7 @@ package testCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -10,9 +11,11 @@ import sharedSteps.Browser;
 import sharedSteps.DatabaseCommands;
 import sharedSteps.Login;
 import sharedSteps.SearchItems;
+import sharedSteps.ListenerClassFile;
 
 import java.util.List;
-import org.testng.Assert;
+//import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import java.sql.Connection;
 import java.sql.Statement;
@@ -21,6 +24,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+@Listeners(ListenerClassFile.class)
 public class SearchMyStore
 {
 	// Open Browser and log into site.
@@ -74,15 +78,16 @@ public class SearchMyStore
 		/**
 		DatabaseCommands myStoreDB = new DatabaseCommands();
 		myStoreDB.DBFileDir="//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/";
-		myStoreDB.DBFileName="MyStoreRobot.accdb";
+		myStoreDB.DBFileName="MyStoreSelenium.accdb";
 		myStoreDB.DBTableName="MyStoreSearch";
 		
 		DatabaseCommands.SelectAllFromTheRequiredDB();
 		*/
 	
+		SoftAssert sa= new SoftAssert();
 		
 		// Specify location of MS Access file as variable dbFile
-		String dbFile = "//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/MyStoreRobot.accdb";
+		String dbFile = "//C:/Users/aaron.masters/Aarons-Workspaces/Selenium-Workspace/MyStoreAutomation/Data/MyStoreSelenium.accdb";
 		
 		// Query to execute
 		String query = "select * from MyStoreSearch;";
@@ -150,65 +155,99 @@ public class SearchMyStore
 					System.out.println("The item titled : "+TitleField);
 					System.out.println("with the description : "+DescriptionField);
 					
+					String SearchDetailsfoundInSearch = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+foundInSearch;	
+					System.out.println("SearchDetailsfoundInSearch = "+SearchDetailsfoundInSearch);					
+					
 					if(foundInSearch.equals("Yes"))
 					{
+
 						if(OnSaleField.equals("Yes"))
 						{
 							// Item should be found in the search results
 							// Item is on sale
 							// Creates a list of all items that matches the xpath criteria and confirms there is 1 item in the list.
 							// It does this because the test stops if it fails to match the xpath.
-							// There will be a better way to do this, but I will try this method first.
+							// It then performs a SoftAssert to confirm that the results match the expected results.
 
 							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
 							int elementExists = results.size();
 							if(elementExists==1)
 							{
-//								WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+SalePriceField+"')]//following-sibling::*[@class='old-price product-price' and contains(., '"+PriceField+"')]"));
-//								String FoundSearchItem = results.getText();
-//								System.out.println("Result : "+FoundSearchItem);
+
 								System.out.println("originally costing : "+PriceField);
 								System.out.println("but is on sale at : "+SalePriceField);
 								System.out.println("WAS found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "Yes";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								// The below is an attempt to get the test to tell me the specifics of each failed search result.
+								// There may be a better way to do this.
+								String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+								sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
+
 							}
 							else
 							{
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is on sale");
 								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");	
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "No";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								// The below is an attempt to get the test to tell me the specifics of each failed search result.
+								// There may be a better way to do this.
+								String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+								sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
 							}
 							
 
 						}
 						else
 						{
+/**							
+ * The below checks whether the variables exists in the xpath, and causes the test to fail if it is not found. However, the test then stops and fails to test the remaining criteria. 
+ * I am keeping this code for reference.							
+ *
+							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
+							String FoundSearchItem = results.getText();
+							System.out.println("Result : "+FoundSearchItem);
+							System.out.println("costing : "+PriceField);
+							System.out.println("and is not on sale");
+							System.out.println("WAS correctly found in the search results");
+							String wasItemFound = "Yes";
+							Assert.assertEquals(wasItemFound,foundInSearch);
+*/							
+
 							// Item should be found in the search results
 							// Item is not on sale
 							List<WebElement> results = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., \""+DescriptionField+"\")]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
 							int elementExists = results.size();
 							if(elementExists==1)
 							{
-	//							WebElement results = Browser.driver.findElement(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-name' and contains(., '"+TitleField+"')]//ancestor::*[(@class='right-block')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]//ancestor::*[(@class='right-block')]//*[@class='price product-price' and contains(., '"+PriceField+"')]"));
-	//							String FoundSearchItem = results.getText();
-	//							System.out.println("Result : "+FoundSearchItem);
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is not on sale");
 								System.out.println("WAS correctly found in the search results");
-//								String wasItemFound = "Yes";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "Yes";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								// The below is an attempt to get the test to tell me the specifics of each failed search result.
+								// There may be a better way to do this.
+								String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+								sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
+
 							}
 							else
 							{
 								System.out.println("costing : "+PriceField);
 								System.out.println("and is not on sale");
 								System.out.println("WAS incorrectly not found in the search results - XXXXX ERROR XXXXX ");
-//								String wasItemFound = "No";
-//								Assert.assertEquals(wasItemFound,foundInSearch);
+								String wasItemFound = "No";
+								sa.assertEquals(wasItemFound,foundInSearch);
+								// The below is an attempt to get the test to tell me the specifics of each failed search result.
+								// There may be a better way to do this.
+								String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+								sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
+								
+
 							}
+// */
 							
 
 						}						
@@ -224,22 +263,24 @@ public class SearchMyStore
 						if(elementExists==0)
 						{
 							System.out.println("This item was correctly not found");
-//							String wasItemFound = "No";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
+							String wasItemFound = "No";
+							sa.assertEquals(wasItemFound,foundInSearch);
+							// The below is an attempt to get the test to tell me the specifics of each failed search result.
+							// There may be a better way to do this.
+							String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+							sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
 						}
 						else
 						{
 							System.out.println("This item was incorrectly found - XXXXX ERROR XXXXX");
-//							String wasItemFound = "Yes";
-//							Assert.assertEquals(wasItemFound,foundInSearch);
+							String wasItemFound = "Yes";
+							sa.assertEquals(wasItemFound,foundInSearch);
+							// The below is an attempt to get the test to tell me the specifics of each failed search result.
+							// There may be a better way to do this.
+							String SearchDetailswasItemFound = "Search field = "+SearchField+" -- Name of item = "+TitleField+" -- Found in search = "+wasItemFound;
+							sa.assertEquals(SearchDetailsfoundInSearch, SearchDetailswasItemFound);
 						}
 							
-							
-						
-//						List<WebElement> results2 = Browser.driver.findElements(By.xpath("//*[contains(@class, 'product_list')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]"));
-//						int FoundSearchItem = results.size();
-//						System.out.println("Result : "+FoundSearchItem);
-						//*[contains(@class, 'product_list')]//*[@class='product-desc' and contains(., '"+DescriptionField+"')]
 					}
 					
 
@@ -256,6 +297,9 @@ public class SearchMyStore
 			System.out.println("I have now performed a search for " +SearchField );
 			
 		}
-
+		
+		// Checks whether any of the Soft Asserts have failed and fails the test if so.
+		sa.assertAll();
+		
 	}
 }
